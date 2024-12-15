@@ -33,7 +33,7 @@ const settings = {
     <section id="projects">
       <h1>Projects</h1>
       <Slider {...settings}>
-        {projectList.map((project, index, link) => (
+        {projectList.map((project, index) => (
           <Project key={index} {...project} />
         ))}
       </Slider>

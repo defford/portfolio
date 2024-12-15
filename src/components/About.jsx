@@ -15,7 +15,7 @@ and server-side programming.
 Alongside my web development expertise, I have a deep passion for data systems and 
 AI-driven solutions. I specialize in building efficient ETL pipelines, managing relational 
 databases, and creating insightful dashboards with tools like Power BI. My skills extend 
-to Python programming, cloud platforms like Azure and GCP, and developing AI-powered 
+to Python programming, cloud platforms like AWS, Azure and GCP, and developing AI-powered 
 applications through available APIs. I bring a creative and solution-focused mindset to every project, blending 
 web development and data expertise with strategic problem-solving to deliver innovative, impactful results.
 <br /><br />
