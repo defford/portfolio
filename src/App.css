@@ -1,0 +1,171 @@
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282c34;
+    background: linear-gradient(to right, #140c2f, #030182);
+    color: white;
+  }
+  
+  header {
+    background-color: #120f38;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .heroText {
+    margin: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+  }
+
+  .subHeroText {
+    font-weight: 50;
+  }
+
+  .heroButton {
+    margin: 20px;
+    background-color: #030182;
+    border-radius: 5px;
+  }
+
+  .buttonLink {
+    display: inline-block;
+    font-family: Geneva;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .heroButton:hover {
+    transform: scale(1.1);
+    background-color: #120f38;
+  }
+
+  .fullName {
+    font-weight: 900;
+  }
+
+  h2 {
+    margin: 0px;
+    padding: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #projects {
+    margin: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#projects h1 {
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.project {
+    font-family: Geneva;
+    border: 1px solid #ccc;
+    background-color: rgb(17, 17, 72);
+    padding: 10px;
+    margin: 30px;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    position: relative;
+  }
+  
+  .project h2 {
+    margin: 0;
+  }
+  
+  .project a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s, opacity 0.3s;
+  }
+  
+  .slick-center .project {
+    transform: scale(1.2);
+    z-index: 1;
+    opacity: 1;
+    }
+
+  #about {
+    text-align: center;
+    line-height: 1.6;
+    margin: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #about p {
+    width: 60%;
+  }
+
+  .contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+  }
+
+  .contactLinks {
+    flex-direction: row;
+    margin-bottom: 10%;
+  }
+
+  .contactLinks a {
+    padding: 8px 15px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 3px;
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+  }

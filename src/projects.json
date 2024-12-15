@@ -1,0 +1,30 @@
+[
+    {
+        "name": "E-Commerce Art Store",
+        "description": "An E-Commerce Story built with React for a local Newfoundland artist",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "repository": "https://github.com/defford/ArtStoreProject",
+        "demoImage": "NA"
+    },
+    {
+        "name": "Dog Image Gallery",
+        "description": "A fun React app that pulls dog images from an API and displays them",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "repository": "https://github.com/defford/DogImageGallery",
+        "demoImage": "NA"
+    },
+    {
+        "name": "PeakForm",
+        "description": "A workout tracker written in JS that allows the user to store their workout details for analysis",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "repository": "https://github.com/defford/PeakForm",
+        "demoImage": "NA"
+    },
+    {
+        "name": "Receipt Tracker",
+        "description": "A Python script that takes in photos of receipts, uses AI to find relevant data from the image, and saves the data into a csv",
+        "technologies": ["Python", "GPT-4o API"],
+        "repository": "https://github.com/defford/Receipt-Tracker/",
+        "demoImage": "NA"
+    }
+]
